@@ -4,7 +4,7 @@
 //
 //  In-app privacy policy. Pushed via NavigationLink from SettingsView
 //  so the user gets the standard back button. The external GitHub page
-//  (chrisli323.github.io/I-AM-Enough/privacy.html) remains the
+//  (chrisli323.github.io/I-AM-Becoming/privacy.html) remains the
 //  canonical public-facing version; this view mirrors its content.
 //
 
@@ -114,7 +114,7 @@ struct PrivacyPolicyView: View {
                     policySection(
                         number: "7",
                         title: "Disclaimer",
-                        body: "I AM Enough is designed for personal growth and inspirational purposes only. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease, mental health condition, or addiction. The teachings and content in this app do not constitute professional medical, psychological, or therapeutic advice. The developers of I AM Enough assume no responsibility or liability for any actions taken, decisions made, or outcomes experienced as a result of using this app. You are solely responsible for your own choices and wellbeing. If you are struggling with addiction, mental health, or any medical condition, please seek guidance from a qualified healthcare professional.",
+                        body: "I AM Enough is designed for personal growth and inspirational purposes only. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any medical or psychological condition. The teachings and content in this app do not constitute professional medical, psychological, or therapeutic advice. The developers of I AM Enough assume no responsibility or liability for any actions taken, decisions made, or outcomes experienced as a result of using this app. You are solely responsible for your own choices and wellbeing. If you have concerns about your physical or emotional wellbeing, please seek guidance from a qualified healthcare professional.",
                         bullets: []
                     )
 
