@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>I AM Becoming</title>
+  <meta name="description" content="I AM Becoming: A Daily Journey is a private daily reflection, journaling, and intention-setting app for iPhone." />
+  <link rel="canonical" href="https://chrisli323.github.io/I-AM-Becoming/" />
+  <title>I AM Becoming: A Daily Journey</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -37,17 +39,15 @@
       color: #6F5026;
       margin-bottom: 32px;
     }
-    .badge-btn {
+    .app-store-link {
       display: inline-block;
       margin-top: 8px;
-      padding: 10px 18px;
-      border: 1px solid rgba(59,38,17,0.45);
-      border-radius: 8px;
-      color: #3B2611;
-      font-size: 0.82em;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      cursor: default;
+      line-height: 0;
+    }
+    .app-store-badge {
+      display: block;
+      width: 180px;
+      height: auto;
     }
 
     /* ── Sections ── */
@@ -148,9 +148,9 @@
     <div class="hero-ornament">✦</div>
     <h1>I AM Becoming</h1>
     <p class="tagline">one day at a time</p>
-    <div class="badge-btn" aria-label="Coming soon to the App Store">
-      Coming soon to the App Store
-    </div>
+    <a class="app-store-link" href="https://apps.apple.com/app/id6801820313" aria-label="Download I AM Becoming on the App Store">
+      <img class="app-store-badge" src="download-on-the-app-store.svg" alt="Download on the App Store" width="180" height="60" />
+    </a>
   </div>
 
   <!-- ── About ── -->
